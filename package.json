@@ -1,42 +1,61 @@
 {
-  "name": "angular-npm-module-seed",
+  "name": "angular-module-adminlte",
   "version": "1.0.0",
-  "description": "Starting point for developing Angular modules and publishing them on NPM",
+  "description": "Implementación del template AdminLTE con Angular 2",
   "keywords": [
-    "angular 2"
+    "adminlte, angular 2"
   ],
   "main": "index.js",
   "scripts": {
     "clean": "rimraf .tmp && rimraf dist",
     "transpile": "ngc",
     "package": "rollup -c",
-    "minify": "./node_modules/uglify-js/bin/uglifyjs dist/bundles/npm-module-seed.umd.js --screw-ie8 --compress --mangle --comments --output dist/bundles/npm-module-seed.umd.min.js",
+    "minify": "./node_modules/uglify-js/bin/uglifyjs dist/bundles/angular-module-adminlte.umd.js --screw-ie8 --compress --mangle --comments --output dist/bundles/angular-module-adminlte.min.js",
     "copy": "cpx './package-dist.json' dist && renamer --find 'package-dist.json' --replace 'package.json' ./dist/*",
     "build": "npm run clean && npm run transpile && npm run package && npm run minify && npm run copy"
   },
   "license": "MIT",
-  "homepage": "https://github.com/davguij/angular-npm-module-seed",
+  "homepage": "https://github.com/jcheros/angular-module-adminlte",
   "bugs": {
-    "url": "https://github.com/davguij/angular-npm-module-seed/issues"
+    "url": "https://github.com/jcheros/angular-module-adminlte/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/davguij/angular-npm-module-seed.git"
+    "url": "https://github.com/jcheros/angular-module-adminlte.git"
   },
   "devDependencies": {
-    "@angular/compiler": "^2.4.4",
-    "@angular/compiler-cli": "^2.4.4",
+    "@angular/compiler": "^4.3.4",
+    "@angular/compiler-cli": "^4.3.4",
+    "@types/node": "~8.0.17",
+    "codelyzer": "~3.1.2",
+    "rollup": "^0.45.2",
+    "ts-node": "~3.3.0",
+    "tslint": "~5.5.0",
+    "typescript": "^2.4.2",
+    "uglify-js": "^3.0.27",
     "cpx": "^1.5.0",
     "renamer": "^0.6.1",
-    "rimraf": "^2.5.4",
-    "rollup": "^0.41.4",
-    "typescript": "~2.0.0",
-    "uglify-js": "^2.7.5"
+    "rimraf": "^2.5.4"
   },
   "dependencies": {
-    "@angular/common": "^2.4.4",
-    "@angular/core": "^2.4.4",
-    "rxjs": "^5.0.3",
-    "zone.js": "^0.7.6"
+    "@angular/common": "^4.3.4",
+    "@angular/core": "^4.3.4",
+    "@angular/forms": "^4.3.4",
+    "@angular/http": "^4.3.4",
+    "@angular/platform-browser": "^4.3.4",
+    "@angular/platform-browser-dynamic": "^4.3.4",
+    "@angular/router": "^4.3.4",
+    "@angular/animations": "^4.3.4",
+    "@ngx-translate/core": "^7.1.0",
+    "@ngx-translate/http-loader": "^1.0.0",
+    "admin-lte": "^2.3.11",
+    "bootstrap": "^3.3.7",
+    "core-js": "^2.4.1",
+    "font-awesome": "^4.7.0",
+    "ionicons": "^3.0.0",
+    "jquery": "^3.2.1",
+    "rxjs": "^5.4.2",
+    "zone.js": "^0.8.16",
+    "angular2-toaster": "^4.0.1"
   }
 }

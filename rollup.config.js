@@ -1,9 +1,9 @@
 export default {
 	entry: 'dist/index.js',
-	dest: 'dist/bundles/npm-module-seed.umd.js',
+	dest: 'dist/bundles/angular-module-adminlte.umd.js',
 	sourceMap: false,
 	format: 'umd',
-	moduleName: 'ng.npm-module-seed',
+	moduleName: 'angular-module-adminlte',
 	globals: {
 		'@angular/core': 'ng.core',
 		'@angular/common': 'ng.common',
