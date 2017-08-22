@@ -12,7 +12,7 @@
     "package": "rollup -c",
     "minify": "./node_modules/uglify-js/bin/uglifyjs dist/bundles/angular-module-adminlte.umd.js --screw-ie8 --compress --mangle --comments --output dist/bundles/angular-module-adminlte.min.js",
     "copy": "cpx './package-dist.json' dist && renamer --find 'package-dist.json' --replace 'package.json' ./dist/*",
-    "build": "npm run clean && npm run transpile && npm run package && npm run minify && npm run copy"
+    "build": "npm run clean && npm run transpile && npm run package && npm run copy"
   },
   "license": "MIT",
   "homepage": "https://github.com/jcheros/angular-module-adminlte",
