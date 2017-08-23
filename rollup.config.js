@@ -47,7 +47,7 @@ export default {
 		
 			// Lock the module search in this path (like a chroot). Module defined
 			// outside this path will be mark has external
-			jail: '/src/', // Default: '/'
+			jail: '/', // Default: '/'
 		
 			// If true, inspect resolved files to check that they are
 			// ES2015 modules
@@ -60,9 +60,7 @@ export default {
 			}
 		}),
 		commonjs(
-			{
-				include: 'node_modules/**'
-			}
+			
 		)
 	]
 }
