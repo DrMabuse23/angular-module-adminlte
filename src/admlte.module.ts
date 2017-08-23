@@ -98,4 +98,4 @@ const layouts = [
     ...layouts
   ]
 })
-export class AdminLteModule { }
+export class AdmLteModule { }

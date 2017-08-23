@@ -4,10 +4,10 @@ import commonjs from 'rollup-plugin-commonjs';
 
 export default {
 	entry: 'dist/index.js',
-	dest: 'dist/bundles/angular-module-adminlte.umd.js',
+	dest: 'dist/bundles/adm-lte-module.umd.js',
 	sourceMap: false,
 	format: 'umd',
-	moduleName: 'angular-module-adminlte',
+	moduleName: 'adm-lte-module',
 	globals: {
 		'@angular/core': 'ng.core',
 		'@angular/common': 'ng.common',
@@ -36,7 +36,7 @@ export default {
 			// specifies alternative files to load for people bundling
 			// for the browser. If that's you, use this option, otherwise
 			// pkg.browser will be ignored
-			browser: true,  // Default: false
+			browser: false,  // Default: false
 	
 			// not all files you want to resolve are .js files
 			extensions: [ '.js', '.json' ],  // Default: ['.js']
@@ -56,9 +56,13 @@ export default {
 			// Any additional options that should be passed through
 			// to node-resolve
 			customResolveOptions: {
-				moduleDirectory: 'js_modules'
+				moduleDirectory: 'node_modules'
 			}
 		}),
-		commonjs()
+		commonjs(
+			{
+				include: 'node_modules/**'
+			}
+		)
 	]
 }

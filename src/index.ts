@@ -53,5 +53,5 @@ export * from './models/user';
 import { Notification } from './models/notification';
 export * from './models/notification';
 
-import { AdminLteModule } from './adminlte.module';
-export { AdminLteModule } from './adminlte.module';
+import { AdmLteModule } from './admlte.module';
+export { AdmLteModule } from './admlte.module';

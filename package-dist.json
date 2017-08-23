@@ -1,8 +1,8 @@
 {
-	"name": "angular-module-adminlte",
+	"name": "adm-lte-module",
 	"version": "1.0.0",
 	"description": "Wot!",
-	"main": "bundles/angular-module-adminlte.umd.min.js",
+	"main": "bundles/adm-lte-module.umd.js",
 	"typings": "index.d.ts",
 	"keywords": [
 		"adminlte", 
