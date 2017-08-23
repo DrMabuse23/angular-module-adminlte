@@ -1,32 +1,38 @@
 {
-	"name": "angular-npm-module-seed",
+	"name": "adm-lte-module",
 	"version": "1.0.0",
 	"description": "Wot!",
-	"main": "bundles/npm-module-seed.umd.min.js",
-	"module": "index.js",
+	"main": "bundles/adm-lte-module.umd.js",
 	"typings": "index.d.ts",
 	"keywords": [
-		"angular",
-		"angular2",
+		"adminlte", 
 		"angular 2"
 	],
 	"author": {
-		"name": "",
-		"email": ""
+		"name": "Jose Chero Sojo",
+		"email": "jchero.sojo@gmail.com"
 	},
-	"license": "",
+	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": ""
+		"url": "https://github.com/jcheros/angular-module-adminlte.git"
 	},
-	"homepage": "",
+	"homepage": "https://github.com/jcheros/angular-module-adminlte",
 	"bugs": {
-		"url": ""
+		"url": "https://github.com/jcheros/angular-module-adminlte/issues"
 	},
 	"peerDependencies": {
-		"@angular/core": "^2.4.0",
+		"@angular/core": "^4.3.4",
+		"@angular/animations": "^4.3.4",
 		"reflect-metadata": "^0.1.8",
-		"rxjs": "^5.0.1",
-		"zone.js": "^0.7.2"
+		"admin-lte": "^2.3.11",
+		"bootstrap": "^3.3.7",
+		"core-js": "^2.4.1",
+		"font-awesome": "^4.7.0",
+		"ionicons": "^3.0.0",
+		"jquery": "^3.2.1",
+		"rxjs": "^5.4.2",
+		"zone.js": "^0.8.16",
+		"angular2-toaster": "^4.0.0"
 	}
 }
