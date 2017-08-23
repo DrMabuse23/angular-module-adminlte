@@ -51,16 +51,10 @@ export default {
 		
 			// If true, inspect resolved files to check that they are
 			// ES2015 modules
-			modulesOnly: false, // Default: false
+			modulesOnly: true, // Default: false
 	
-			// Any additional options that should be passed through
-			// to node-resolve
-			customResolveOptions: {
-				moduleDirectory: 'js_modules'
-			}
-		}),
-		commonjs(
 			
-		)
+		}),
+		commonjs()
 	]
 }
