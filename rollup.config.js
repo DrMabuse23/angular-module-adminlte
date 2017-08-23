@@ -36,7 +36,7 @@ export default {
 			// specifies alternative files to load for people bundling
 			// for the browser. If that's you, use this option, otherwise
 			// pkg.browser will be ignored
-			browser: false,  // Default: false
+			browser: true,  // Default: false
 	
 			// not all files you want to resolve are .js files
 			extensions: [ '.js', '.json' ],  // Default: ['.js']
@@ -56,7 +56,7 @@ export default {
 			// Any additional options that should be passed through
 			// to node-resolve
 			customResolveOptions: {
-				moduleDirectory: 'node_modules'
+				moduleDirectory: 'js_modules'
 			}
 		}),
 		commonjs(
