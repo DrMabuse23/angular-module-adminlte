@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../src/widgets/app-footer/index.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,kBAAkB,EAAE,MAAM,wBAAwB,CAAC","file":"index.js","sourceRoot":"","sourcesContent":["export { AppFooterComponent } from './app-footer.component';\r\n"]}

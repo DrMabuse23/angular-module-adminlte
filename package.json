@@ -5,7 +5,7 @@
   "keywords": [
     "adminlte, angular 2"
   ],
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "clean": "rimraf .tmp && rimraf dist",
     "transpile": "ngc",
