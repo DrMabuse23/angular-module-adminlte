@@ -8,6 +8,7 @@ export class User {
     public creationDate: string;
     public preferredLang: string;
     public preferredHome: string;
+    public connectFrom: string,
     public connected = false;
 
     public constructor( data: any = {}) {
@@ -20,6 +21,7 @@ export class User {
         this.creationDate = data.creation_date || Date.now();
         this.preferredLang = data.preferredLang || null;
         this.preferredHome = data.preferredHome || null;
+        this.connectFrom = data.connectFrom || null;
         this.connected = data.connected || false;
     }
 
