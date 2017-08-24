@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../src/widgets/menu-aside/index.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,kBAAkB,EAAE,MAAM,wBAAwB,CAAC","file":"index.js","sourceRoot":"","sourcesContent":["export { MenuAsideComponent } from './menu-aside.component';\r\n"]}

@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../src/widgets/user-box/index.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,gBAAgB,EAAE,MAAM,sBAAsB,CAAC","file":"index.js","sourceRoot":"","sourcesContent":["export { UserBoxComponent } from './user-box.component';\r\n"]}

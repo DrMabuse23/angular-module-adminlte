@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../src/widgets/notification-box/index.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,wBAAwB,EAAE,MAAM,8BAA8B,CAAC","file":"index.js","sourceRoot":"","sourcesContent":["export { NotificationBoxComponent } from './notification-box.component';\r\n"]}
