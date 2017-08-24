@@ -48,6 +48,7 @@ var User = (function () {
         this.creationDate = data.creation_date || Date.now();
         this.preferredLang = data.preferredLang || null;
         this.preferredHome = data.preferredHome || null;
+        this.connectFrom = data.connectFrom || null;
         this.connected = data.connected || false;
     }
     User.prototype.getName = function () {

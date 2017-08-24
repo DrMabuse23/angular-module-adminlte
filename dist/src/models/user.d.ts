@@ -8,6 +8,7 @@ export declare class User {
     creationDate: string;
     preferredLang: string;
     preferredHome: string;
+    connectFrom: string;
     connected: boolean;
     constructor(data?: any);
     getName(): string;

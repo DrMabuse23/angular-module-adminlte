@@ -8,7 +8,7 @@ export class User {
     public creationDate: string;
     public preferredLang: string;
     public preferredHome: string;
-    public connectFrom: string,
+    public connectFrom: string;
     public connected = false;
 
     public constructor( data: any = {}) {
